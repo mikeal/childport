@@ -5,7 +5,7 @@ Launch child processes for services that bind to a specified port.
 `npm install childport`
 
 ```javascript
-// server.js
+// parent.js
 var request = require('request')
   , childport = require('childport')
   ;

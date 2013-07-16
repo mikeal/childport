@@ -1,6 +1,6 @@
 {
   "name": "childport",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Launch child processes for services that bind to a specified port.",
   "main": "index.js",
   "directories": {

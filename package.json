@@ -1,0 +1,35 @@
+{
+  "name": "childport",
+  "version": "0.0.0",
+  "description": "Launch child processes for services that bind to a specified port.",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "once": "~1.1.1"
+  },
+  "devDependencies": {
+    "cleanup": "~0.3.0",
+    "okdone": "~0.3.0",
+    "request": "~2.22.0"
+  },
+  "scripts": {
+    "test": "node tests/run.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mikeal/childport"
+  },
+  "keywords": [
+    "child",
+    "child_process",
+    "port",
+    "deploy"
+  ],
+  "author": "Mikeal Rogers <mikeal.rogers@gmail.com>",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/mikeal/childport/issues"
+  }
+}

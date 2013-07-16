@@ -16,12 +16,12 @@ function finish (e, p) {
     if (resp.statusCode !== 200) throw new Error('status not 200, ', resp.statusCode)
   })
 }
-```
-```javascript
+
 var child = childport.cp(3001, finish).spawn('node', [__dirname+'/child.js'])
 child.on('error', function (e) {throw e})
 child.stderr.pipe(process.stderr)
-
+```
+```javascript
 // child.js
 var http = require('http')
   , childport = require('../')

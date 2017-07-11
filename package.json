@@ -7,12 +7,12 @@
     "test": "tests"
   },
   "dependencies": {
-    "once": "~1.1.1"
+    "once": "~1.4.0"
   },
   "devDependencies": {
     "cleanup": "~0.3.0",
     "okdone": "~0.3.0",
-    "request": "~2.22.0"
+    "request": "~2.81.0"
   },
   "scripts": {
     "test": "node tests/run.js"

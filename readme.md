@@ -1,5 +1,7 @@
 ### childport
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/mikeal/childport.svg)](https://greenkeeper.io/)
+
 Launch child processes for services that bind to a specified port.
 
 `npm install childport`
